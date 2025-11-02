@@ -13,7 +13,6 @@ It allows users to *add, edit, delete, and search contacts* with smooth animatio
 -  Add Contact:* Add a new contact via a pop-up modal form with input validation for name, phone, and email.  
 -  Edit Contact:* Edit existing contacts in a pop-up editor, allowing quick updates.  
 -  Delete Contact:* Instantly remove contacts with a single click.  
--  Dark Theme UI:* Modern dark mode interface and intuitive layout.  
 -  Local State Storage:* Contact data is managed in React state (resets on refresh).
 
 ---
@@ -55,6 +54,4 @@ Deployed on Vercel: [Live Demo](https://contact-list-app.vercel.app) (replace wi
 - Add sorting/filtering options (by name or recently added).
 - Integrate theme switch (dark/light).
 
-## Author
-- Bhanu Prasanna Vankudoth,23B1291
-- Student of IIT Bombay
+
