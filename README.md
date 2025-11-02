@@ -1,16 +1,57 @@
-# React + Vite
+# Contact List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern *React-based Contact Management Application* with a sleek dark theme.  
+It allows users to *add, edit, delete, and search contacts* with smooth animations and a responsive layout.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- View Contacts:* Displays all saved contacts in a centered, responsive layout.  
+  Smooth scrolling ensures usability even with many contacts.  
+-  Search:* Real-time, case-insensitive search to filter contacts instantly.  
+-  Add Contact:* Add a new contact via a pop-up modal form with input validation for name, phone, and email.  
+-  Edit Contact:* Edit existing contacts in a pop-up editor, allowing quick updates.  
+-  Delete Contact:* Instantly remove contacts with a single click.  
+-  Local State Storage:* Contact data is managed in React state (resets on refresh).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- *React* – Core UI framework.  
+- *CSS (Custom)* – Styling for dark theme, pop-ups, and smooth scrollable layout.  
+- *JavaScript (ES6+)* – Functional and component-based logic.  
+- No backend or external APIs — pure front-end React implementation.
+
+---
+
+## Design Highlights
+
+- Centered contact list with consistent spacing.  
+- Smooth scrolling container for large lists.  
+- Minimal clutter — only the essential actions (Edit and Delete).  
+- Pop-up modals for adding and editing contacts — simple and non-intrusive.  
+- Fully responsive design for both desktop and mobile screens.
+
+---
+## Setup and Run Locally
+1. Clone the repo: git clone https://github.com/bhanuprasanna396/contact-list-app.git
+2. Install dependencies: npm install
+3. Start the app: npm start
+4. Open [localhost:3000](http://localhost:5173/) in your browser.
+
+## Deployment
+Deployed on Vercel: [Live Demo](https://contact-list-app.vercel.app) (replace with your actual URL).
+
+## Assumptions
+- Contacts are stored in local state (resets on refresh). For persistence, integrate a backend API.
+- Basic validation on add form; no advanced error handling.
+
+## Improvements
+- Add local storage or backend API for persistent data.
+- Include profile pictures for contacts.
+- Add sorting/filtering options (by name or recently added).
+- Integrate theme switch (dark/light).
+
+
