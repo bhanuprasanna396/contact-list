@@ -7,14 +7,14 @@ It allows users to *add, edit, delete, and search contacts* with smooth animatio
 
 ## Features
 
-- * View Contacts:* Displays all saved contacts in a centered, responsive layout.  
+- View Contacts:* Displays all saved contacts in a centered, responsive layout.  
   Smooth scrolling ensures usability even with many contacts.  
-- * Search:* Real-time, case-insensitive search to filter contacts instantly.  
-- * Add Contact:* Add a new contact via a pop-up modal form with input validation for name, phone, and email.  
-- * Edit Contact:* Edit existing contacts in a pop-up editor, allowing quick updates.  
-- * Delete Contact:* Instantly remove contacts with a single click.  
-- * Dark Theme UI:* Modern dark mode interface and intuitive layout.  
-- * Local State Storage:* Contact data is managed in React state (resets on refresh).
+-  Search:* Real-time, case-insensitive search to filter contacts instantly.  
+-  Add Contact:* Add a new contact via a pop-up modal form with input validation for name, phone, and email.  
+-  Edit Contact:* Edit existing contacts in a pop-up editor, allowing quick updates.  
+-  Delete Contact:* Instantly remove contacts with a single click.  
+-  Dark Theme UI:* Modern dark mode interface and intuitive layout.  
+-  Local State Storage:* Contact data is managed in React state (resets on refresh).
 
 ---
 
