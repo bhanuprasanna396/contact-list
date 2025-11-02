@@ -42,7 +42,7 @@ It allows users to *add, edit, delete, and search contacts* with smooth animatio
 4. Open [localhost:3000](http://localhost:5173/) in your browser.
 
 ## Deployment
-Deployed on Vercel: [Live Demo](https://contact-list-app.vercel.app) (replace with your actual URL).
+Deployed on Vercel: [Live Demo](https://contact-listtria.vercel.app/) (replace with your actual URL).
 
 ## Assumptions
 - Contacts are stored in local state (resets on refresh). For persistence, integrate a backend API.
